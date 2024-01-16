@@ -6,7 +6,7 @@ body{
 
 button,
 a,
-imag:hover,
+img:hover,
 button:hover,
 a:hover{
     cursor: url("./assets/cursor/cursor.cur"),auto;
@@ -56,6 +56,7 @@ a:hover{
 }
 
 .container__left{
+    background-image: url("/src/assets/rpg/background-image-golden2.png");
     width: 35%;
     height: 100vh;
     min-width:300px;
