@@ -25,12 +25,12 @@ const states = {
     },
     
 };
-
+/*
 const playerSides = {
     player1: "player-cards",
     computer: "computer-cards",
 };
-
+*/
 const pathImages = "./src/assets/icons/";
 
 const cardData = [
