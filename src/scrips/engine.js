@@ -13,6 +13,13 @@ const states = {
         player: document.getElementById("player-field-card"),
         computer: document.getElementById("computer-field-card"),
     },
+    playerSides:{
+        player1: "player-cards",
+        player1BOX: document.querySelector("#player-cards"),
+        computer: "computer-cards",
+        computerBOX: document.querySelector("#computer-cards")
+
+    },
     action:{
         button: document.getElementById("next-duel"),
     },
