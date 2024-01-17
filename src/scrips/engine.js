@@ -20,13 +20,21 @@ const states = {
         computerBOX: document.querySelector("#computer-cards")
 
     },
+    playerSides:{
+        player1: "player-cards",
+        player1BOX: document.querySelector("#player-cards"),
+        computer: "computer-cards",
+        computerBOX: document.querySelector("#computer-cards")
+
+    },
     action:{
         button: document.getElementById("next-duel"),
     },
     
 };
+/*
 
-
+*/
 
 const pathImages = "./src/assets/icons/";
 
@@ -232,10 +240,9 @@ async function playerAudio(status){
 
 
 function init(){
-	
-	ShowHiddenCardFildsImages(false);
-    drawCards(5, states.playerSides.player1);
-    drawCards(5, states.playerSides.computer);
+
+    drawCards(5, playerSides.player1);
+    drawCards(5, playerSides.computer);
     
 
     const bgm = document.getElementById("bgm");
