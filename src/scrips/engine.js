@@ -129,8 +129,8 @@ async function drawCards(cardNumbers, fieldSide){
 
 function init(){
 
-    drawCards(5, playerSides.player1);
-    drawCards(5, playerSides.computer);
+    drawCards(5, states.playerSides.player1);
+    drawCards(5, states.playerSides.computer);
     
 };
 
